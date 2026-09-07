@@ -1,0 +1,9 @@
+.edu-item + .edu-item{margin-top:18px}
+.certificate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.certificate{margin:0;padding:15px 16px 14px 18px;border:1px solid var(--line);border-left:2px solid var(--line);border-radius:4px;background:var(--bg-alt)}
+.certificate:before{top:19px}
+.certificate h3{font-size:.88rem;line-height:1.45}
+.certificate .meta{margin-bottom:5px;line-height:1.45}
+.certificate p{font-size:12px;line-height:1.5;color:var(--dim)}
+.certificate .credential{font-size:11.5px;color:var(--dim);overflow-wrap:anywhere}
+@media(max-width:600px){.certificate-grid{grid-template-columns:1fr}.certificate{padding-right:14px}}
