@@ -6,4 +6,5 @@
 .certificate .meta{margin-bottom:5px;line-height:1.45}
 .certificate p{font-size:12px;line-height:1.5;color:var(--dim)}
 .certificate .credential{font-size:11.5px;color:var(--dim);overflow-wrap:anywhere}
+.language-switch{margin-left:auto;border:1px solid var(--line);border-radius:4px;background:var(--bg-alt);color:var(--blue);font:500 12px var(--mono);padding:5px 8px;cursor:pointer;transition:border-color .2s,color .2s;display:inline-flex;align-items:center;gap:5px}.language-switch:hover,.language-switch:focus-visible{border-color:var(--green);color:var(--green);outline:none}.flag{width:17px;height:12px;display:block;border-radius:1px;box-shadow:0 0 0 1px rgba(240,246,252,.2)}@media(max-width:600px){.file{font-size:11px}}
 @media(max-width:600px){.certificate-grid{grid-template-columns:1fr}.certificate{padding-right:14px}}

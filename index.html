@@ -13,111 +13,111 @@
   <link rel="stylesheet" href="overrides.css">
 </head>
 <body>
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
   <div class="titlebar" aria-label="Barra de título">
     <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
     <span class="file">~/lautaro/portfolio.md</span>
+    <button class="language-switch" type="button" aria-label="Idioma actual: Español. Cambiar a inglés"><img class="flag" src="flag-es.svg" alt="Bandera de España"> ES</button>
   </div>
 
   <main class="wrap" id="contenido">
     <section class="hero">
       <p class="comment">// portfolio.init()</p>
       <h1>Lautaro Denis de Hoz<span class="cursor" aria-hidden="true"></span></h1>
-      <p class="role">Estudiante de Desarrollo de Software | Análisis y Gestión de Datos | Administración</p>
-      <p class="desc">Estudiante de la Tecnicatura en Desarrollo de Software con interés en áreas administrativas y tecnológicas. Cuento con conocimientos en Python, Java, HTML, CSS, Microsoft Excel y Jira, además de experiencia en gestión de datos, elaboración de reportes y atención al cliente.</p>
+      <p class="role" data-i18n="role">Estudiante de Desarrollo de Software | Análisis y Gestión de Datos | Administración</p>
+      <p class="desc" data-i18n="desc">Estudiante de la Tecnicatura en Desarrollo de Software con interés en áreas administrativas y tecnológicas. Cuento con conocimientos en Python, Java, HTML, CSS, Microsoft Excel y Jira, además de experiencia en gestión de datos, elaboración de reportes y atención al cliente.</p>
       <div class="quick-data">
-        <span><b class="key">nacimiento:</b> <span class="str">"24-08-2006"</span></span>
-        <span><b class="key">estado:</b> <span class="str">"buscando oportunidades"</span></span>
+        <span><b class="key" data-i18n="birthLabel">nacimiento:</b> <span class="str">"24-08-2006"</span></span>
       </div>
     </section>
 
     <section id="sobre-mi">
-      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path">sobre-mi.txt</span></h2>
-      <p class="body-copy">Me destaco por mi organización, capacidad de aprendizaje y manejo de herramientas digitales. Busco desarrollarme profesionalmente en un entorno dinámico donde pueda aportar compromiso, organización y contribuir a la mejora de procesos.</p>
+      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path" data-i18n="aboutFile">sobre-mi.txt</span></h2>
+      <p class="body-copy" data-i18n="about">Me destaco por mi organización, capacidad de aprendizaje y manejo de herramientas digitales. Busco desarrollarme profesionalmente en un entorno dinámico donde pueda aportar compromiso, organización y contribuir a la mejora de procesos.</p>
     </section>
 
     <section id="stack">
-      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path">stack.txt</span></h2>
+      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path" data-i18n="stackFile">stack.txt</span></h2>
       <div class="stack-grid">
-        <div class="stack-item"><span class="tag">lenguaje</span>Python</div>
-        <div class="stack-item"><span class="tag">lenguaje</span>Java</div>
+        <div class="stack-item"><span class="tag" data-i18n="language">lenguaje</span>Python</div>
+        <div class="stack-item"><span class="tag" data-i18n="language">lenguaje</span>Java</div>
         <div class="stack-item"><span class="tag">web</span>HTML / CSS</div>
-        <div class="stack-item"><span class="tag">datos</span>Gestión y análisis</div>
-        <div class="stack-item"><span class="tag">herramienta</span>Microsoft Excel</div>
-        <div class="stack-item"><span class="tag">gestión</span>Jira</div>
+        <div class="stack-item"><span class="tag" data-i18n="data">datos</span><span data-i18n="dataAnalysis">Gestión y análisis</span></div>
+        <div class="stack-item"><span class="tag" data-i18n="tool">herramienta</span>Microsoft Excel</div>
+        <div class="stack-item"><span class="tag" data-i18n="management">gestión</span>Jira</div>
       </div>
     </section>
 
     <section id="experiencia">
-      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path">experiencia.log</span></h2>
+      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path" data-i18n="experienceFile">experiencia.log</span></h2>
       <article class="project">
-        <h3>Analista Funcional (Proyecto Académico)</h3>
-        <div class="meta">UADE · contrato de prácticas · 2025 — actualidad</div>
-        <p>Relevamiento y análisis de requerimientos funcionales para transformar necesidades organizacionales en especificaciones y soluciones técnicas.</p>
+        <h3 data-i18n="functionalAnalyst">Analista Funcional (Proyecto Académico)</h3>
+        <div class="meta" data-i18n="uadeCurrent">UADE · contrato de prácticas · 2025 — actualidad</div>
+        <p data-i18n="functionalDesc">Relevamiento y análisis de requerimientos funcionales para transformar necesidades organizacionales en especificaciones y soluciones técnicas.</p>
       </article>
       <article class="project">
-        <h3>Desarrollador Web Frontend (Proyecto Académico)</h3>
-        <div class="meta">UADE · contrato de prácticas · 2025 — actualidad</div>
-        <p>Desarrollo de interfaces web utilizando HTML5 y CSS3, con foco en maquetado semántico, organización de contenidos y usabilidad.</p>
+        <h3 data-i18n="frontendDeveloper">Desarrollador Web Frontend (Proyecto Académico)</h3>
+        <div class="meta" data-i18n="uadeCurrent">UADE · contrato de prácticas · 2025 — actualidad</div>
+        <p data-i18n="frontendDesc">Desarrollo de interfaces web utilizando HTML5 y CSS3, con foco en maquetado semántico, organización de contenidos y usabilidad.</p>
       </article>
       <article class="project">
-        <h3>Servicio de atención al cliente</h3>
-        <div class="meta">Chocolates Chiazza · contrato de prácticas · junio 2026</div>
-        <p>Atención al cliente, reposición, limpieza del local, manejo de caja, apertura y cierre.</p>
+        <h3 data-i18n="customerService">Servicio de atención al cliente</h3>
+        <div class="meta" data-i18n="chiazzaDate">Chocolates Chiazza · contrato de prácticas · junio 2026</div>
+        <p data-i18n="customerDesc">Atención al cliente, reposición, limpieza del local, manejo de caja, apertura y cierre.</p>
       </article>
     </section>
 
     <section id="proyectos">
-      <h2 class="section-title"><span class="prompt">$</span> ls <span class="path">proyectos/</span></h2>
+      <h2 class="section-title"><span class="prompt">$</span> ls <span class="path" data-i18n="projectsFile">proyectos/</span></h2>
       <article class="project">
         <h3>desarrollo-web-frontend</h3>
-        <div class="meta">proyecto académico</div>
-        <p>Desarrollo de interfaces con HTML5 y CSS3, aplicando maquetado semántico, organización de contenidos, usabilidad y buenas prácticas de codificación.</p>
+        <div class="meta" data-i18n="academicProject">proyecto académico</div>
+        <p data-i18n="webProjectDesc">Desarrollo de interfaces con HTML5 y CSS3, aplicando maquetado semántico, organización de contenidos, usabilidad y buenas prácticas de codificación.</p>
       </article>
       <article class="project">
         <h3>análisis-de-sistemas</h3>
-        <div class="meta">análisis y requerimientos · proyecto académico</div>
-        <p>Relevamiento de requerimientos basado en casos reales, identificación de problemas operativos y propuesta de soluciones tecnológicas para optimizar procesos internos.</p>
+        <div class="meta" data-i18n="analysisProject">análisis y requerimientos · proyecto académico</div>
+        <p data-i18n="analysisProjectDesc">Relevamiento de requerimientos basado en casos reales, identificación de problemas operativos y propuesta de soluciones tecnológicas para optimizar procesos internos.</p>
       </article>
-      <a class="repo-link" href="https://github.com/Ldenis06" target="_blank" rel="noreferrer">→ ver perfil de GitHub</a>
+      <a class="repo-link" href="https://github.com/Ldenis06" target="_blank" rel="noreferrer" data-i18n="githubLink">→ ver perfil de GitHub</a>
     </section>
 
     <section id="formacion">
-      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path">formacion.log</span></h2>
+      <h2 class="section-title"><span class="prompt">$</span> cat <span class="path" data-i18n="educationFile">formacion.log</span></h2>
       <div class="edu-item">
         <div class="school">Universidad Argentina de la Empresa (UADE)</div>
-        <div class="when">Tecnicatura en Desarrollo de Software — mar. 2025 a may. 2027</div>
+        <div class="when" data-i18n="degree">Tecnicatura en Desarrollo de Software — mar. 2025 a may. 2027</div>
       </div>
       <div class="edu-item">
         <div class="school">Instituto Santa Felicitas</div>
-        <div class="when">Bachillerato, Ciencias Sociales — mar. 2010 a nov. 2024</div>
+        <div class="when" data-i18n="highSchool">Bachillerato, Ciencias Sociales — mar. 2010 a nov. 2024</div>
       </div>
     </section>
 
     <section id="certificaciones">
-      <h2 class="section-title"><span class="prompt">$</span> ls <span class="path">certificaciones/</span></h2>
+      <h2 class="section-title"><span class="prompt">$</span> ls <span class="path" data-i18n="certificationsFile">certificaciones/</span></h2>
       <div class="certificate-grid">
         <article class="project certificate">
           <h3>Red Hat System Administration I (RH124 - RHA) - Ver. 10</h3>
           <div class="meta">Red Hat Academy</div>
-          <p>Administración de sistemas Linux con Red Hat Enterprise Linux 10.</p>
+          <p data-i18n="rh10Desc">Administración de sistemas Linux con Red Hat Enterprise Linux 10.</p>
         </article>
         <article class="project certificate">
-          <h3>Ciencia y Análisis de Datos</h3>
+          <h3 data-i18n="dataScience">Ciencia y Análisis de Datos</h3>
           <div class="meta">HP LIFE</div>
         </article>
         <article class="project certificate">
-          <h3>Introducción al Conocimiento de la Ciberseguridad</h3>
+          <h3 data-i18n="cyberIntro">Introducción al Conocimiento de la Ciberseguridad</h3>
           <div class="meta">HP LIFE</div>
-          <p>Conceptos fundamentales de ciberseguridad y comprensión de amenazas digitales.</p>
+          <p data-i18n="cyberDesc">Conceptos fundamentales de ciberseguridad y comprensión de amenazas digitales.</p>
         </article>
         <article class="project certificate">
           <h3>Red Hat System Administration I (RH124 - RHA) - Ver. 8</h3>
           <div class="meta">Red Hat Academy</div>
-          <p>Introducción a la administración de sistemas con Red Hat Enterprise Linux 8.</p>
+          <p data-i18n="rh8Desc">Introducción a la administración de sistemas con Red Hat Enterprise Linux 8.</p>
         </article>
         <article class="project certificate">
-          <h3>Google: Inteligencia Artificial y productividad</h3>
+          <h3 data-i18n="googleAi">Google: Inteligencia Artificial y productividad</h3>
           <div class="meta">Santander Open Academy · oct. 2024</div>
           <p class="credential">OA-2024-1014000607042</p>
         </article>
@@ -127,17 +127,17 @@
           <p class="credential">OA-2025-0315000898233</p>
         </article>
         <article class="project certificate">
-          <h3>Negociación</h3>
+          <h3 data-i18n="negotiation">Negociación</h3>
           <div class="meta">Santander Open Academy · mar. 2025</div>
           <p class="credential">OA-2025-0315000898246</p>
         </article>
         <article class="project certificate">
-          <h3>Comunicación Efectiva</h3>
+          <h3 data-i18n="effectiveCommunication">Comunicación Efectiva</h3>
           <div class="meta">Santander Open Academy · mar. 2025</div>
           <p class="credential">OA-2025-0315000898274</p>
         </article>
         <article class="project certificate">
-          <h3>Liderazgo en el entorno digital</h3>
+          <h3 data-i18n="digitalLeadership">Liderazgo en el entorno digital</h3>
           <div class="meta">Santander Open Academy · mar. 2025</div>
           <p class="credential">OA-2025-0315000898309</p>
         </article>
@@ -145,7 +145,7 @@
     </section>
 
     <footer>
-      <p class="comment">// contacto</p>
+      <p class="comment" data-i18n="contact">// contacto</p>
       <div class="contact-row">
         <a href="mailto:denislautaro6@gmail.com">denislautaro6@gmail.com</a>
         <a href="https://www.linkedin.com/in/denislautaro" target="_blank" rel="noreferrer">linkedin.com/in/denislautaro</a>
@@ -153,5 +153,42 @@
       </div>
     </footer>
   </main>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a372dfee1b339652',t:'MTc4ODc1NDM0Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+  <script>
+    (() => {
+      const english = {
+        skip: "Skip to content", role: "Software Development Student | Data Analysis & Management | Administration",
+        desc: "Software Development student interested in administrative and technology roles. Skilled in Python, Java, HTML, CSS, Microsoft Excel and Jira, with experience in data management, report preparation and customer service.",
+        birthLabel: "born:", aboutFile: "about-me.txt",
+        about: "I stand out for my organization, ability to learn and use of digital tools. I am looking to grow professionally in a dynamic environment where I can contribute commitment, organization and process improvement.",
+        stackFile: "stack.txt", language: "language", data: "data", dataAnalysis: "Management & analysis", tool: "tool", management: "management",
+        experienceFile: "experience.log", functionalAnalyst: "Functional Analyst (Academic Project)", uadeCurrent: "UADE · internship contract · 2025 — present",
+        functionalDesc: "Gathering and analyzing functional requirements to translate organizational needs into technical specifications and solutions.",
+        frontendDeveloper: "Frontend Web Developer (Academic Project)", frontendDesc: "Building web interfaces with HTML5 and CSS3, focused on semantic layout, content organization and usability.",
+        customerService: "Customer Service", chiazzaDate: "Chocolates Chiazza · internship contract · June 2026", customerDesc: "Customer service, restocking, store cleaning, cash handling, opening and closing.",
+        projectsFile: "projects/", academicProject: "academic project", webProjectDesc: "Building interfaces with HTML5 and CSS3, applying semantic layout, content organization, usability and coding best practices.",
+        analysisProject: "analysis & requirements · academic project", analysisProjectDesc: "Requirements gathering based on real cases, operational issue identification and technology solution proposals to optimize internal processes.", githubLink: "→ view GitHub profile",
+        educationFile: "education.log", degree: "Associate Degree in Software Development — Mar. 2025 to May 2027", highSchool: "High School Diploma, Social Sciences — Mar. 2010 to Nov. 2024",
+        certificationsFile: "certifications/", rh10Desc: "Linux system administration with Red Hat Enterprise Linux 10.", dataScience: "Data Science and Analysis", cyberIntro: "Introduction to Cybersecurity Knowledge", cyberDesc: "Core cybersecurity concepts and understanding of digital threats.", rh8Desc: "Introduction to system administration with Red Hat Enterprise Linux 8.", googleAi: "Google: Artificial Intelligence and Productivity", negotiation: "Negotiation", effectiveCommunication: "Effective Communication", digitalLeadership: "Leadership in the Digital Environment", contact: "// contact"
+      };
+      const original = {};
+      document.querySelectorAll("[data-i18n]").forEach((node) => { original[node.dataset.i18n] = node.textContent; });
+      const button = document.querySelector(".language-switch");
+      const flag = button.querySelector(".flag");
+      let language = "es";
+      function render() {
+        const dictionary = language === "en" ? english : original;
+        document.documentElement.lang = language;
+        document.querySelectorAll("[data-i18n]").forEach((node) => { node.textContent = dictionary[node.dataset.i18n]; });
+        document.title = language === "en" ? "Lautaro Denis de Hoz — Portfolio" : "Lautaro Denis de Hoz — Portfolio";
+        document.querySelector('meta[name="description"]').content = language === "en" ? "Portfolio of Lautaro Denis de Hoz, Software Development student at UADE." : "Portfolio de Lautaro Denis de Hoz, estudiante de Desarrollo de Software en UADE.";
+        const inSpanish = language === "es";
+        flag.src = inSpanish ? "flag-es.svg" : "flag-us.svg";
+        flag.alt = inSpanish ? "Bandera de España" : "United States flag";
+        button.lastChild.nodeValue = inSpanish ? " ES" : " EN";
+        button.setAttribute("aria-label", inSpanish ? "Idioma actual: Español. Cambiar a inglés" : "Current language: English. Switch to Spanish");
+      }
+      button.addEventListener("click", () => { language = language === "es" ? "en" : "es"; render(); });
+    })();
+  </script>
+</body>
 </html>
