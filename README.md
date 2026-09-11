@@ -1,2 +1,10 @@
 
-https://ldenis.l-denis.chatgpt.site/
+https://ldenis06.github.io/portfolio/
+
+
+
+
+
+
+
+   
